@@ -106,7 +106,7 @@ if (message.content.toLowerCase().startsWith(prefix + `close`)) {
 
 
 giftKeys = {};
-let devs = ["544508875324391447","522045992543977484","518872353615380497"]; // \ let devs = ["ايديك","ايدي خويك او إي ادمن","ايدي خويك الثالث"];
+let devs = ["609770616480071681","522045992543977484","518872353615380497"]; // \ let devs = ["ايديك","ايدي خويك او إي ادمن","ايدي خويك الثالث"];
 client.on("message", msg =>{
   let args = msg.content.split(" ").slice(1)[0];
   let cmd = msg.content.split(' ')[0]
@@ -3100,7 +3100,7 @@ if(!message.channel.guild) return;
 }); 
 			      
 const sWlc = {}
-const premium = ['544508875324391447', '522045992543977484', '', '']
+const premium = ['609770616480071681', '522045992543977484', '', '']
 client.on('message', message => {
 var prefix = "-";
 if(message.channel.type === "dm") return;
@@ -3122,7 +3122,7 @@ const channel = sWlc[message.guild.id].channel
 
  client.on("guildMemberAdd", member => {
       if(!sWlc[member.guild.id]) sWlc[member.guild.id] = {
-    channel: "ºchat"
+    channel: "chat"
   }
   const channel = sWlc[member.guild.id].channel
     const sChannel = sWlc[member.guild.id].channel
@@ -3475,7 +3475,7 @@ client.on("message", message => {
     if(message.author.bot) return;
     if(message.channel.type === 'dm') return;
   let messagearray = message.content.split(" ");
-let devs = ["544508875324391447","522045992543977484","518872353615380497"];
+let devs = ["609770616480071681","522045992543977484","518872353615380497"];
 
   let cmd = messagearray[0];
   let args = messagearray.slice(1);
@@ -3524,7 +3524,7 @@ client.on("message", message => {
     if(message.author.bot) return;
     if(message.channel.type === 'dm') return;
   let messagearray = message.content.split(" ");
-let devs = ["544508875324391447","522045992543977484","518872353615380497"];
+let devs = ["609770616480071681","522045992543977484","518872353615380497"];
 
   let cmd = messagearray[0];
   let args = messagearray.slice(1);
@@ -3568,7 +3568,7 @@ client.on("message", message => {
     if(message.author.bot) return;
     if(message.channel.type === 'dm') return;
   let messagearray = message.content.split(" ");
-let devs = ["544508875324391447","522045992543977484","518872353615380497"];
+let devs = ["609770616480071681","522045992543977484","518872353615380497"];
 
   let cmd = messagearray[0];
   let args = messagearray.slice(1);
